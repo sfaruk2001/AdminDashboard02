@@ -72,7 +72,33 @@ ul > li {
 
 .header {
     border: 2px solid green;
+    padding: 16px;
 }
+
+.header-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1-search {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.h1-search > input {
+    width: 500px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    background-color: rgb(224, 224, 224);
+}
+
+.h1-bellProfile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 .main-content {
     border: 2px solid yellow;
