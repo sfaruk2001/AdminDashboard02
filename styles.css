@@ -4,8 +4,10 @@
     margin: 0;
 }
 
+
 .container {
     height: 100vh;
+    width: 100vw;
     /**border: 2px solid red;*/
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -26,7 +28,7 @@
     padding: 16px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 3fr 2fr;
+    grid-template-rows: 0.5fr 3fr 5fr;
     gap: 15px;
 }
 
@@ -72,18 +74,20 @@ ul > li {
 
 .header {
     border: 2px solid green;
-    padding: 16px;
+    padding: 16px 50px;
 }
 
 .header-one {
     display: flex;
     justify-content: space-between;
+    border: 1px solid pink;
 }
 
 .h1-search {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap: 10px;
 }
 
 .h1-search > input {
@@ -95,9 +99,55 @@ ul > li {
 
 .h1-bellProfile {
     display: flex;
-    justify-content: space-around;
+    gap: 20px;
     align-items: center;
 }
+
+.h1-bellProfile > img:nth-child(2) {
+    width: 40px;
+}
+
+.header-two {
+    border: 1px solid purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.h2-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.h2-profile > img {
+    width: 60px;
+}
+
+.h2-hello-user > div {
+    font-weight: bold;
+}
+
+.h2-hello-user > div:nth-child(2) {
+    font-size: 1.2rem;
+}
+
+.h2-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.h2-buttons > button {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgba(25, 146, 212);
+    color: white;
+    border: none; 
+}
+
 
 
 .main-content {
