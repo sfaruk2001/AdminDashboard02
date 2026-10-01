@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+
 }
 
 
@@ -152,7 +161,138 @@ ul > li {
 .main-content {
     border: 2px solid yellow;
     background-color: rgba(226, 232, 240);
+    padding: 30px 15px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
 }
+
+.project-content {
+    display: grid;
+    grid-template-rows: 1fr 20fr;
+    grid-template-columns: 1fr;
+    border: 1px solid purple;
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card {
+    border-left: gold 10px solid;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.card-content {
+    color: grey;
+    font-size: 1rem;
+}
+
+.card-features {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.status-content {
+    display: grid;
+    grid-template-rows: 1fr 20fr;
+    grid-template-columns: 1fr;
+    border: 1px solid rgb(15, 235, 243);
+}
+
+.announce-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.status-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 0.5fr 4fr;
+}
+
+.announcement-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px grey;
+    padding: 20px;
+}
+
+.announce-header {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.a-content {
+    font-size: .9rem;
+    color: grey;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+.trend-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.trend-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px grey;
+    
+}
+
+.pfp-icons {
+    width: 40px;
+}
+
+.trend-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-at {
+    font-size: 1rem;
+}
+
+.project-name {
+    font-size: 1rem;
+    color: grey;
+}
+
+
+
+
 
 
 
