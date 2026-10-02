@@ -30,7 +30,6 @@ body {
 
 .sidebar {
     grid-column: 1 / 2;
-    border: 2px solid blue;
     background-color: rgba(25, 146, 212);
     color: white;
     padding: 16px;
@@ -68,9 +67,7 @@ ul > li {
     width: 25px;
 }
 
-.side-header, .side-nav, .side-settings  {
-    border: 1px solid white;
-}
+
 
 .content-wrapper {
     
@@ -81,14 +78,12 @@ ul > li {
 
 
 .header {
-    border: 2px solid green;
     padding: 16px 50px;
 }
 
 .header-one {
     display: flex;
     justify-content: space-between;
-    border: 1px solid pink;
 }
 
 .h1-search {
@@ -115,8 +110,11 @@ ul > li {
     width: 40px;
 }
 
+.profile-name {
+    font-weight: bold;
+}
+
 .header-two {
-    border: 1px solid purple;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -159,7 +157,6 @@ ul > li {
 
 
 .main-content {
-    border: 2px solid yellow;
     background-color: rgba(226, 232, 240);
     padding: 30px 15px;
     display: grid;
@@ -171,7 +168,6 @@ ul > li {
     display: grid;
     grid-template-rows: 1fr 20fr;
     grid-template-columns: 1fr;
-    border: 1px solid purple;
 }
 
 .project-title {
@@ -215,7 +211,6 @@ ul > li {
     display: grid;
     grid-template-rows: 1fr 20fr;
     grid-template-columns: 1fr;
-    border: 1px solid rgb(15, 235, 243);
 }
 
 .announce-title {
